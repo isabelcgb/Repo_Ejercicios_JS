@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>Ejercicio 1.19</title>
+    </head>
+    <body>
+      <h1>Eventos</h1>
+      <p>Haz que cuando se haga click sobre el botón “Guardar”, salté un alert con un mensaje de guardado</p>
+      <button id= "BotonGuardar">Guardar</button>
+      <br>
+      <br>
+      <p>Cuando hagamos foco sobre este input se pondrá de color amarillo y cuando se lo quitemos cambiará de color</p>
+      <label for="Nombre1">Nombre</label>
+      <input for ="Nombre1" type="text" class="nombre" onfocus="cambioFoco()" onfocusout="cambioNOFoco()"/>
+      <br>
+      <br>
+      <p>Dependiendo si escribamos una vocal o una consonante el contenido del input aparecerá de distinto color</p>
+      <label for="Tipo">Escribe una letra</label>
+      <input for = "Tipo" type="text" class="random" onkeypress="checkLetra(event)" />
+      <script src="script19.js"></script>
+    </body>
+</html>
